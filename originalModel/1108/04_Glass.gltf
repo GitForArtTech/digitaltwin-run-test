@@ -1,0 +1,302 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "babylon.js glTF exporter for Autodesk Maya 2018.2 v20221031.2"
+  },
+  "scene": 0,
+  "scenes": [{ "nodes": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9] }],
+  "nodes": [
+    {
+      "translation": [9.094271, -16.008007, -9.215784],
+      "rotation": [0.4721662, 0.0, 0.0, 0.881509542],
+      "scale": [100.0, 100.0, 100.0],
+      "name": "FBXASC231FBXASC169FBXASC186FBXASC233FBXASC171FBXASC148"
+    },
+    { "mesh": 0, "name": "A" },
+    {
+      "rotation": [-0.7071068, 0.0, 0.0, 0.7071067],
+      "scale": [100.0, 100.0, 100.0],
+      "name": "AA"
+    },
+    {
+      "mesh": 1,
+      "translation": [9.575672, 0.0, 27.50545],
+      "rotation": [-1.61339024e-15, 0.707106769, -0.707106769, 1.61339024e-15],
+      "scale": [4552.055, 2512.04663, 2447.7334],
+      "name": "pPlane1"
+    },
+    { "translation": [0.0, -5.09703827, 0.0], "name": "aiSkyDomeLight1" },
+    {
+      "mesh": 2,
+      "translation": [3.26273179, -1.89995682, 0.0],
+      "scale": [3446.05078, 3446.05078, 3446.05078],
+      "name": "pPlane2"
+    },
+    {
+      "translation": [10.6849861, -1.05417109, 2.27962446],
+      "rotation": [0.214024663, 0.178033888, -0.0320287161, 0.9599331],
+      "scale": [220.9827, 220.9827, 220.9827],
+      "name": "areaLight1"
+    },
+    {
+      "translation": [0.0, 2.1414907, 0.0],
+      "rotation": [0.8497234, -0.362322718, -0.382955879, 0.00609338237],
+      "scale": [385.279449, 385.279449, 385.279449],
+      "name": "directionalLight1"
+    },
+    {
+      "camera": 0,
+      "translation": [-1.93, 12.24, -40.5069771],
+      "rotation": [1.12655218e-9, 0.986855745, 0.1616038, 1.84479959e-10],
+      "scale": [946.894, 946.894, 946.894],
+      "name": "FBXASC230FBXASC148FBXASC157FBXASC229FBXASC189FBXASC177FBXASC230FBXASC169FBXASC159"
+    },
+    {
+      "camera": 1,
+      "translation": [10.22925, -0.463430345, -10.8669472],
+      "rotation": [0.000170591054, 0.9997144, -0.00751728471, 0.022686692],
+      "name": "persp1"
+    }
+  ],
+  "cameras": [
+    {
+      "perspective": { "yfov": 0.471090883, "zfar": 100000.0, "znear": 10.0 },
+      "type": "perspective",
+      "name": "FBXASC230FBXASC148FBXASC157FBXASC229FBXASC189FBXASC177FBXASC230FBXASC169FBXASC159"
+    },
+    {
+      "perspective": { "yfov": 0.6605947, "zfar": 10000.0, "znear": 0.1 },
+      "type": "perspective",
+      "name": "persp1"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1,
+            "TANGENT": 2,
+            "NORMAL": 3,
+            "TEXCOORD_0": 4
+          },
+          "indices": 0,
+          "material": 0
+        }
+      ],
+      "name": "A"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 6,
+            "TANGENT": 7,
+            "NORMAL": 8,
+            "TEXCOORD_0": 9
+          },
+          "indices": 5,
+          "material": 1
+        }
+      ],
+      "name": "pPlane1"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 11,
+            "TANGENT": 12,
+            "NORMAL": 13,
+            "TEXCOORD_0": 14
+          },
+          "indices": 10,
+          "material": 2
+        }
+      ],
+      "name": "pPlane2"
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5123,
+      "count": 852,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 592,
+      "max": [11.3536787, 1.237666, 1.51324892],
+      "min": [8.395476, -1.87572873, -1.57394731],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 592,
+      "type": "VEC4",
+      "name": "accessorTangents"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 7104,
+      "componentType": 5126,
+      "count": 592,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 592,
+      "type": "VEC2",
+      "name": "accessorUVs"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 1704,
+      "componentType": 5123,
+      "count": 600,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 14208,
+      "componentType": 5126,
+      "count": 121,
+      "max": [0.005, 1.110223e-18, 0.005],
+      "min": [-0.005, -1.110223e-18, -0.005],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 9472,
+      "componentType": 5126,
+      "count": 121,
+      "type": "VEC4",
+      "name": "accessorTangents"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 15660,
+      "componentType": 5126,
+      "count": 121,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 4736,
+      "componentType": 5126,
+      "count": 121,
+      "type": "VEC2",
+      "name": "accessorUVs"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 2904,
+      "componentType": 5123,
+      "count": 600,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 17112,
+      "componentType": 5126,
+      "count": 121,
+      "max": [0.005, 1.110223e-18, 0.005],
+      "min": [-0.005, -1.110223e-18, -0.005],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 11408,
+      "componentType": 5126,
+      "count": 121,
+      "type": "VEC4",
+      "name": "accessorTangents"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 18564,
+      "componentType": 5126,
+      "count": 121,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 5704,
+      "componentType": 5126,
+      "count": 121,
+      "type": "VEC2",
+      "name": "accessorUVs"
+    }
+  ],
+  "bufferViews": [
+    { "buffer": 0, "byteLength": 4104, "name": "bufferViewScalar" },
+    {
+      "buffer": 0,
+      "byteOffset": 4104,
+      "byteLength": 20016,
+      "byteStride": 12,
+      "name": "bufferViewFloatVec3"
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 24120,
+      "byteLength": 13344,
+      "byteStride": 16,
+      "name": "bufferViewFloatVec4"
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 37464,
+      "byteLength": 6672,
+      "byteStride": 8,
+      "name": "bufferViewFloatVec2"
+    }
+  ],
+  "buffers": [{ "uri": "04_Glass.bin", "byteLength": 44136 }],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": { "index": 0 },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.240331292
+      },
+      "alphaMode": "BLEND",
+      "name": "phongE2"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": { "index": 1 },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.450053632
+      },
+      "name": "lambert2"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [0.038961038, 0.038961038, 0.038961038, 1.0],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.450053632
+      },
+      "name": "lambert1"
+    }
+  ],
+  "textures": [
+    { "sampler": 0, "source": 0, "name": "gem_UV_A_BaseColor .png" },
+    { "sampler": 0, "source": 1, "name": "BG.jpg" }
+  ],
+  "images": [{ "uri": "gem_UV_A_BaseColor .png" }, { "uri": "BG.jpg" }],
+  "samplers": [{ "magFilter": 9729, "minFilter": 9987 }]
+}
